@@ -26,8 +26,38 @@ int arithmetic(int n) {
 	
 int main(){
     cout << algebric(100) << endl;
-	  cout << arithmetic(100) << endl;
+    cout << arithmetic(100) << endl;
 }
 ```
 Here, There are two algorithms both perform the same task the only difference between them is the efficiency with repect to time. you can check it by executing algorithms individually.
-Ultimate goal of every developer is to gain the efficiency of code and save the time. Time Complexity plays the vital role to acheive same.
+Ultimate goal of every developer is to gain the efficiency of code and save the time. Time Complexity plays the vital role to acheive the same.
+
+
+statement == operation == 1CPU unit time\
+Best case scenario :- O(1), O(5), etc. //constant.\
+Worst case scenario :- O(n). //linear\
+In the below code we will see both case scenario:\
+for loop means O(n) & other  5 line means O(5)\
+This is the combination O(5 + n)
+
+```c++
+#include "iostream"
+using namespace std;
+
+int mixed(int n) {
+	int x = 5;
+	int y = 10;
+	int z;
+	for(int i=0; i<= 10; i++)
+	{
+		cout << i << endl;
+	}
+	z = x + y + n;
+	return z;
+}
+
+int main() {
+	cout << mixed(5000) << endl;
+}
+```
+
