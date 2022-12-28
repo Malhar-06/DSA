@@ -25,7 +25,7 @@ int main(){
     delete []a; // this is the right syntax to deallocate heap array
 
     cout << sizeof(a) << endl; /*in c++ pointer array size is normally 8 byte
-                                    but output varies compiler to compiler
+                                but output varies compiler to compiler
                                 but how to find the size of whole pointer array ?
                                 we will see that in the next code bases    */
 
