@@ -2,7 +2,7 @@
 using namespace std;
 
 //reponsibility to allocate memory from heap
-lwallocate(int **a){
+int lwallocate(int **a){
     cout << a << endl; 
 
 }
